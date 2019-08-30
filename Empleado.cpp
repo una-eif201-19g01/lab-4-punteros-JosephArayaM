@@ -14,6 +14,7 @@
  */
 
 #include "Empleado.h"
+#include <string>
 
 Empleado::Empleado(){
     exp = 0;
@@ -59,7 +60,7 @@ std::string Empleado::mostrarDatos(Empleado empleado1){
     }else{
         s<<"   * Necesita revision [no]"<<std::endl;}
     s<<std::endl;
-    return s;
+    return s.str();
 }
 
 void Empleado::SetSalario(float salario) {
