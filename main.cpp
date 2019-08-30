@@ -38,7 +38,7 @@ int main() {
     empleado[3].SetSalario(800000);
     
     for(int cont= 0; cont< 4; cont++){
-        cout<<empleado[cont].mostrarDatos()<<endl;
+        cout<<empleado[cont].mostrarDatos(empleado)<<endl;
     }
 
     return 0;
